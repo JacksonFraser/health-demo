@@ -1,0 +1,12 @@
+#Mon May 06 12:02:45 AEST 2024
+micronaut:
+  application:
+    name: health-demo
+  server:
+    port: 8081
+endpoints:
+  all:
+    sensitive: true
+  health:
+    sensitive: false
+    details-visible: ANONYMOUS
